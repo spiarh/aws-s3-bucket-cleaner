@@ -18,8 +18,7 @@ BUCKET_REGION
 
 ## Integration with AWS S3 Operator
 
-It is useful in combination with a bucket created from an `ObjectBucketClaim`
-on Managed Platform Plus.
+It is useful in combination with a bucket created from an `ObjectBucketClaim`.
 
 1. Assuming the following `ObjectBucketClaim` is created in a namespace, the
 bucket configuration is stored into the `ConfigMap` named `static-files` and
