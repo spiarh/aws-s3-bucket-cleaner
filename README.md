@@ -1,7 +1,8 @@
 # AWS S3 Bucket Cleaner
 
-This small tool helps with cleaning object from an AWS s3 bucket without when
-versioning is not enabled. Objects older than 90 days are cleaned-up by default.
+This small tool helps with cleaning object from an AWS s3 bucket when
+it is not possible to configure S3 Lifecycle expiration rules.
+Objects older than 90 days are cleaned-up by default.
 
 The bucket credentials must be provided as environment variables:
 ```
